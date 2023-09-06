@@ -1,0 +1,35 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-list-item {
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .org {
+    cursor: pointer;
+  }
+
+  .org:hover {
+    color: blue;
+    transition-duration: 200ms;
+  }
+
+  .loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
